@@ -78,11 +78,11 @@ print(top_three)
 
 
 ### Key Findings
-- Average GRE Score: The average GRE score of the students is 316.81.
-- High TOEFL Scores: 120 students have a TOEFL score greater than 110.
-- Research Experience: 219 students have conducted research.
-- Top Admission Chances: The highest chance of admission is held by students with GRE scores of 336, 340, and 334.
-- Top Candidates for Scholarships: The top three students, identified by high TOEFL and GRE scores and perfect SOP scores, have CGPAs of 9.74, 9.66, and 9.50 respectively.
+- **Average GRE Score**: The average GRE score of the students is 316.81.
+- **High TOEFL Scores**: 120 students have a TOEFL score greater than 110.
+- **Research Experience**: 219 students have conducted research.
+- **Top Admission Chances**: The highest chance of admission is held by students with GRE scores of 336, 340, and 334.
+- **Top Candidates for Scholarships**: The top three students, identified by high TOEFL and GRE scores and perfect SOP scores, have CGPAs of 9.74, 9.66, and 9.50 respectively.
 
 
 
