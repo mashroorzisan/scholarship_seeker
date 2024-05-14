@@ -32,7 +32,7 @@ print(f'The average GRE score of the students is {mean_gre_score}.')
 Identify the number of students with a TOEFL score greater than 110.
 mean_gre_score = grad_students['GRE_Score'].mean()
 print(f'The average GRE score of the students is {mean_gre_score}.')
-```
+```python
 t_score_gt_110 = len(grad_students[grad_students['TOEFL_Score']>110])
 print(f'The number of students having TOEFL Score greater than 110 is {t_score_gt_110}.')
 
@@ -43,7 +43,7 @@ print(f'The number of students having TOEFL Score greater than 110 is {t_score_g
 ### 3. Students Who Conducted Research
 Count how many students have conducted research.
 
-```
+```python
 no_of_research_stds = len(grad_students[grad_students["Research"]==1])
 print(f"Total of {no_of_research_stds} students conducted research.")
 ```
@@ -52,7 +52,8 @@ print(f"Total of {no_of_research_stds} students conducted research.")
 
 ### 4. Highest Chance of Admit
 Identify the student(s) with the highest chance of admission and their GRE scores.
-```
+
+```python
 highest_chance = grad_students[grad_students['Chance_of_Admit']==grad_students['Chance_of_Admit'].max()]
 highest_chance_gre = highest_chance['GRE_Score']
 print("Students who have the highest chance of admit: ")
@@ -64,7 +65,7 @@ print(f"Their GRE scores are: {highest_chance_gre}")
 ### 5. Top Students for Scholarships
 Filter students with TOEFL scores greater than 110, find those with the highest GRE scores, and ensure the top three have a perfect SOP score.
 
-```
+```python
 higher_toefl = grad_students[grad_students['TOEFL_Score']>=110]
 higher_gre = higher_toefl[higher_toefl['GRE_Score']==higher_toefl["GRE_Score"].max()]
 top_three = higher_gre[higher_gre['SOP']==higher_gre["SOP"].max()]
@@ -85,5 +86,5 @@ print(top_three)
 
 
 
-###Conclusion
+### Conclusion
 This project demonstrates the use of Python and NumPy for a structured analysis of student admission data. By identifying top candidates based on key academic metrics, it provides a data-driven approach to awarding scholarships. This method ensures that scholarships are granted to the most deserving students, thereby enhancing the selection process.
